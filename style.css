@@ -1,0 +1,67 @@
+body{
+  text-align: center;
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: arial;
+}
+
+.container{
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+/* Contenuto Header */
+#logo{
+  width: 150px;
+}
+
+#title{
+  color: limegreen;
+}
+
+/* Contenuto Nav */
+nav{
+  background-color: limegreen;
+  padding: 10px;
+}
+
+.navigation{
+  border: 1px solid black;
+}
+
+/* Contenuto Main  */
+.section-title{
+  display: inline-block;
+}
+
+section > div, span, h2{
+  color: white;
+}
+
+section{
+  margin-right: 500px;
+}
+
+#line1{
+  background-color: orange;
+  height: 20px;
+  border-radius: 10px 10px 10px 10px;
+  margin-right: 20px;
+}
+
+#line2{
+  background-color: green;
+  height: 20px;
+  border-radius: 10px 10px 10px 10px;
+  width: 400px;
+}
+
+#line3{
+  background-color: red;
+  height: 20px;
+  border-radius: 10px 10px 10px 10px;
+  margin-right: 200px;
+}
